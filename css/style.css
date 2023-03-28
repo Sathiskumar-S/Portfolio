@@ -1,0 +1,114 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+h1{
+    margin:0 auto;
+    font-size: 450%;
+    font-weight: 120;
+    color: #66BFBF;
+    line-height: 1.8;
+}
+
+h2{
+    color: #66BFBF;
+    font-weight: normal;
+    font-size: 30px;
+}
+
+h3{
+    color: #11999E;
+}
+
+.top-container{
+    background-color: #E4F9F5;
+    position: relative;
+    font-family: 'Sacramento', cursive;
+    font-size: 20px;
+    padding-top: 5px;
+}
+
+.land-image{
+    padding-top: 50px;
+    margin-bottom: -9px;
+}
+
+.top-cloud{
+    position: absolute;
+    right: 300px;
+    top: 50px;
+    padding-top: 20px;
+}
+
+.bottom-cloud{
+    position: absolute;
+    left: 300px;
+    bottom: 300px;
+}
+
+nav{
+    display: flex;
+    width: 84%;
+    margin: 0;
+    padding: 20px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #11999E;
+    font-weight: bold;
+    font-size: 25px;
+}
+
+.my-image{
+    margin-left: 125px;
+    margin-top: 30px;
+    border-radius: 100px;
+    height: 200px ;
+    width: 200px;
+}
+
+.profile{
+    display: flex;
+}
+
+.about{
+    margin: 40px;
+}
+
+.about-head{
+    margin-left: 10px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.about-content{
+    font-size: 20px;
+    text-align: justify;
+    margin-right: 125px;
+}
+
+.skills{
+    display: flex;
+}
+
+.skills-section{
+    margin-left: 125px;
+}
+
+.skills-image{
+    margin-right: 125px;
+    margin-top: 30px;
+    border-radius: 100px;
+    height: 200px ;
+    width: 200px;
+}
